@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify_Developer</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+
+<header class="header bg-dark py-[1rem] px-[1rem] relative z-[999]">
+        <div class="header__wrapper flex items-center justify-between -z-[1] ">
+            <div class="branding flex">
+                <img src="./img/developer-logo.svg" alt="" class="w-[16rem]">
+                <div class="header__nav1 hidden lg:block">
+                    <ul class="lg:flex lg:items-center ">
+                        <li class="border-t-[.1rem] py-[1.4rem] border-white lg:border-hidden "><a href="" class="text-light hover:text-[#1DB954] text-[14px]  ">DISCOVER</a></li>
+                        <li class="border-t-[.1rem] py-[1.4rem] border-white lg:border-hidden "><a href="" class="text-light hover:text-[#1DB954] text-[14px]  lg:border-b-green lg:border-b-[.2rem]">DOCS</a>
+                            <div class="opening  pl-[2rem] left-0 top-[6.3rem] w-full grid grid-cols-12">
+                                <div class="item py-[1rem]  ">
+                                    <img src="./img/dev/web api.svg" alt="" >
+                                    <h1 class="my-[.8rem] text-white hover:text-green text-[15px] font-semibold">General</h1>
+                                    <ul class="tok text-[.8rem] ">
+                                        <li><a href="" class="text-white   hover:text-green">Development Guide</a></li>
+                                        <li><a href="" class="text-white   hover:text-green">Design Guidelines</a></li>
+                                        <li><a href="" class="text-white   hover:text-green">Accessibility Guides</a></li>
+                                        
+                                    </ul>
+                                </div>
+
+                                <div class="item py-[1rem] ">
+                                    <img src="./img/dev/web api.svg" alt="" >
+                                    <h1 class="my-[.9rem] text-white hover:text-yellow-600 text-[14px] font-semibold">WEB API</h1>
+                                    <ul class="tok text-[.8rem]">
+                                        <li><a href="" class="text-white hover:text-yellow-600">Quick Start</a></li>
+                                        <li><a href="" class="text-white hover:text-yellow-600">Guide</a></li>
+                                        <li><a href="" class="text-white hover:text-yellow-600">Reference</a></li>
+                                        
+                                    </ul>
+                                </div>
+
+                                <div class="item py-[1rem] ">
+                                    <img src="./img/dev/web api.svg" alt="" >
+                                    <h1 class="my-[.9rem] text-white hover:text-pink-600 text-[14px] font-semibold">WEB PLAYBACK SDK</h1>
+                                    <ul class="tok text-[.8rem]">
+                                        <li><a href="" class="text-white hover:text-pink-600">Quick Start</a></li>
+                                        <li><a href="" class="text-white hover:text-pink-600">Guides</a></li>
+                                        <li><a href="" class="text-white hover:text-pink-600">Reference</a></li>
+                                        
+                                    </ul>
+                                </div>
+
+                                <div class="item py-[1rem] ">
+                                    <img src="./img/dev/web api.svg" alt="" >
+                                    <h1 class="my-[.9rem] text-white hover:text-violet-300 text-[14px] font-semibold">ADS API</h1>
+                                    <ul class="tok text-[.8rem]">
+                                        <li><a href="" class="text-white hover:text-violet-300">Quick Start</a></li>
+                                        <li><a href="" class="text-white hover:text-violet-300">Guides</a></li>
+                                        <li><a href="" class="text-white hover:text-violet-300">Reference</a></li>
+                                        
+                                    </ul>
+                                </div>
+
+                                <div class="item py-[1rem] ">
+                                    <img src="./img/dev/web api.svg " alt="">
+                                    <h1 class="my-[.9rem] text-white hover:text-blue text-[14px] font-semibold">IOS</h1>
+                                    <ul class="tok text-[.8rem]">
+                                        <li><a href="" class="text-white hover:text-blue">Quick Start</a></li>
+                                        <li><a href="" class="text-white hover:text-blue">Guides</a></li>
+                                        <li><a href="" class="text-white hover:text-blue">Reference</a></li>
+                                        <li><a href="" class="text-white hover:text-blue">Download</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="item py-[1rem] ">
+                                    <img src="./img/dev/web api.svg" alt="" >
+                                    <h1 class="my-[.9rem] text-white hover:text-pink-400 text-[14px] font-semibold">ANDROID</h1>
+                                    <ul class="tok text-[.8rem]">
+                                        <li><a href="" class="text-white hover:text-pink-400">Quick Start</a></li>
+                                        <li><a href="" class="text-white hover:text-pink-400">Guides</a></li>
+                                        <li><a href="" class="text-white hover:text-pink-400">Reference</a></li>
+                                        <li><a href="" class="text-white hover:text-pink-400">Download</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="item py-[1rem] ">
+                                    <img src="./img/dev/web api.svg" alt="" >
+                                    <h1 class="my-[.9rem] text-white hover:text-orange-700 text-[14px] font-semibold">EMBEDS</h1>
+                                    <ul class="tok text-[.8rem]">
+                                        <li><a href="" class="text-white hover:text-orange-700">Guides</a></li>
+                                        <li><a href="" class="text-white hover:text-orange-700">Reference</a></li>
+                                        <li><a href="" class="text-white hover:text-orange-700">Terms</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="item py-[1rem] ">
+                                    <img src="./img/dev/web api.svg" alt="" >
+                                    <h1 class="my-[.9rem] text-white hover:text-green text-[14px] font-semibold">COMMERSIAL HARDWARE</h1>
+                                    <ul class="tok text-[.8rem]">
+                                        <li><a href="" class="text-white hover:text-green">Onboarding</a></li>
+                                        <li><a href="" class="text-white hover:text-green">Implementation</a></li>
+                                        <li><a href="" class="text-white hover:text-green">Launch</a></li>
+                                      
+                                    </ul>
+                                </div>
+                            </div>
+                        
+                        </li>
+                        <li class="border-t-[.1rem] py-[1.4rem] border-white lg:border-hidden "><a href="" class="text-light hover:text-[#1DB954] text-[14px]  ">CONSOLE</a></li>
+                        <li class="border-t-[.1rem] py-[1.4rem] border-white lg:border-hidden "><a href="" class="text-light hover:text-[#1DB954] text-[14px]  ">COMMUNITY</a>
+                           
+                            <div class="opening  pl-[2rem] left-0 top-[6.3rem] w-full grid grid-cols-12">
+                                <div class="item py-[1rem]  ">
+                                    <img src="./img/dev/web api.svg" alt="" >
+                                    <h1 class="my-[.8rem] text-white hover:text-green text-[14px] font-semibold">NEWS</h1>
+                                    
+                                </div>
+
+                                <div class="item py-[1rem] ">
+                                    <img src="./img/dev/web api.svg" alt="" >
+                                    <h1 class="my-[.9rem] text-white hover:text-green text-[14px] font-semibold">FORUM</h1>
+                                    
+                                </div>
+
+                                <div class="item py-[1rem] ">
+                                    <img src="./img/dev/web api.svg" alt="" >
+                                    <h1 class="my-[.9rem] text-white hover:text-green text-[14px] font-semibold">SHOWCASE</h1>
+                                    
+                                </div>
+
+
+                            </div>
+                        </li>
+
+                        <li class="border-t-[.1rem] py-[1.4rem] border-white lg:border-hidden "><a href="" class="text-light hover:text-[#1DB954] text-[14px]  ">DASHBOARD</a></li>
+                        <li class="border-t-[.1rem] py-[1.4rem] border-white lg:border-hidden "><a href="" class="text-light hover:text-[#1DB954] text-[14px]  ">USE CASES</a>
+                        
+                            <div class="opening  pl-[2rem] left-0 top-[6.3rem] w-full grid grid-cols-12">
+                                <div class="item py-[1rem]  ">
+                                    <img src="./img/dev/web api.svg" alt="" >
+                                    <h1 class="my-[.8rem] text-white  text-[15px] font-semibold">MOBILE APPS</h1>
+                                    <ul class="tok text-[.8rem] ">
+                                        <li><a href="" class="text-white   hover:text-green">Messaging</a></li>
+                                        <li><a href="" class="text-white   hover:text-green">Connection Flow</a></li>
+                                        <li><a href="" class="text-white   hover:text-green">Content</a></li>
+                                        
+                                    </ul>
+                                </div>
+
+                                <div class="item py-[1rem] ">
+                                    <img src="./img/dev/web api.svg" alt="" >
+                                    <h1 class="my-[.9rem] text-white text-[14px] font-semibold">HARDWARE</h1>
+                                    <ul class="tok text-[.8rem]">
+                                        <li><a href="" class="text-white hover:text-green">Voice Integrations</a></li>
+                                        <li><a href="" class="text-white hover:text-green">New & Emerging</a></li>
+                                        <li><a href="" class="text-white hover:text-green">Wearables</a></li>
+                                        
+                                    </ul>
+                                </div>
+                               
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+               
+            </div>
+           
+            <div class=" flex gap-[1rem] serch ml-[7rem] mt-[.1rem]">
+                <i class="fa-solid fa-magnifying-glass text-light text-[1.1rem] lg:text-[1.3rem] font-semibold"></i>
+                <div class="toggle__menudev z-[10] lg:hidden">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            
+        </div>
+    
+</header>
+<!-- new batch -->
+<div class="header__nav1 lg:hidden">
+    <ul>
+        <li class="group border-t-[.1rem] py-[1.4rem] border-white "><a href="" class="text-light  text-[14px] group-hover:text-green   ">DISCOVER</a></li>
+        <li class="group border-t-[.1rem] py-[1.4rem] border-white "><a href="" class="text-light  text-[14px] group-hover:text-green border-b-green border-b-[.2rem]">DOCS</a></li>
+        <li class="group border-t-[.1rem] py-[1.4rem] border-white "><a href="" class="text-light  text-[14px] group-hover:text-green  ">CONSOLE</a></li>
+        <li class="group border-t-[.1rem] py-[1.4rem] border-white "><a href="" class="text-light  text-[14px] group-hover:text-green  ">COMMUNITY</a></li>
+        <li class="group border-t-[.1rem] py-[1.4rem] border-white "><a href="" class="text-light  text-[14px] group-hover:text-green  ">DASHBOARD</a></li>
+        <li class="group border-t-[.1rem] py-[1.4rem] border-white "><a href="" class="text-light  text-[14px] group-hover:text-green  ">USE CASES</a></li>
+    </ul>
+</div>
+
+
+
+    <section class="evrything absolute top-[4rem] duration-[.5s] ease-in-out lg:px-[14rem]">
+    <section class="platform bg-white ">
+        <div class="container">
+            <div class="platform__wrapper lg:py-[3rem]">
+                <div class="platform__text lg:max-w-[43r] my-[.6rem] text-[#222326] font-bold text-[56px] leading-[4rem] lg:text-[6rem] lg:leading-[8rem]"><h1>Platform Documentation</h1>
+                    <p class="text-[24px] mt-[2rem] lg:text-[1.5rem]">Here you'll find handy documentation about our APIs and SDKs. Choose below, or scroll down to select by feature.</p>
+                </div>
+                <div class="platform__content py-[4rem] flex justify-center flex-wrap gap-[2rem] lg:justify-start lg:gap-[4rem]">
+                    <div class="circle hover:text-[#f59b23]">
+                        <div class="backg bg-[#f59b23]">
+                            <img src="./img/dev/web api.svg" alt="">
+                        </div>
+                        <a href="">WEB API</a>
+                    </div>
+                    <div class="circle hover:text-[#af2796]">
+                        <div class="backg bg-[#AF2796]">
+                            <img src="./img/embed.svg" alt="">
+                        </div>
+                        <a href="">WEB PLAYBACK SDK</a>
+                    </div>
+                    <div class="circle hover:text-[#b49bc8]">
+                        <div class="backg bg-[#B49BC8]">
+                            <img src="./img/adss.jpg" alt="">
+                        </div>
+                        <a href="">ADS API</a>
+                    </div>
+                    <div class="circle hover:text-[#509bf5]">
+                        <div class="backg bg-[#509bf5]">
+                            <img src="./img/android.svg" alt="">
+                        </div>
+                        <a href="">IOS</a>
+                    </div>
+                    <div class="circle hover:text-[#f573a0]">
+                        <div class="backg bg-[#f573a0]">
+                            <img src="./img/android.svg" alt="">
+                        </div>
+                        <a href="">ANDROID</a>
+                    </div>
+                    <div class="circle hover:text-[#ff4632]">
+                        <div class="backg bg-[#ff4632]">
+                            <img src="./img/embed.svg" alt="">
+                        </div>
+                        <a href="">EMBEDS</a>
+                    </div>
+                    <div class="circle hover:text-[#00a575]">
+                        <div class="backg bg-[#00a575]">
+                            <img src="./img/commercial.svg" alt="">
+                        </div>
+                        <a href="">COMMERCIAL HARDWARE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="explore ">
+        <div class="container">
+            <div class="explore__wrapper">
+                <div class="explore__title border-b-1 border-black">
+                    <h2 class="text-center text-[1.2rem] font-extrabold pb-[2rem] lg:text-[1.5rem] lg:font-bold lg:pt-[3rem]">EXPLORE BY FEATURE</h2>
+                    <hr class="border lg:w-[50rem] lg:mx-auto">
+                </div>
+                <div class="features lg:grid lg:grid-cols-2 ">
+                    <div class="features__content lg:max-w-[35rem]">
+                        <h2 class="font-bold text-[2rem] pt-[3rem] lg:text-[3rem]">Music Playback</h2>
+                        <p class="mt-[.5rem]">Let them play! Give users built-in music playback using our API and SDKs.</p>
+                        <div class="row flex gap-[2rem]">
+                            <div class="images py-[2rem] items-center w-[9.5rem] ">
+                                <div class="actualimg flex justify-center ">
+                                    <img src="img/web.svg" alt="" class="w-[2.5rem]">
+                                </div>
+                                <a href="" class="text-[#AF2796] font-semibold">WEB PLAYBACK SDK</a>
+                            </div>
+                            <div class="images py-[2rem] items-center  ">
+                                <div class="actualimg flex justify-center">
+                                    <img src="img/web.svg" alt="" class="w-[2.5rem]">
+                                </div>
+                                <a href="" class="text-[#04D4F0] font-semibold ml-[.4rem]">IOS</a>
+                            </div>
+                            <div class="images py-[2rem] items-center  ">
+                                <div class="actualimg flex justify-center">
+                                    <img src="img/web.svg" alt="" class="w-[2.5rem]">
+                                </div>
+                                <a href="" class="text-[#FD49A0] font-semibold ml-[.2rem]">ANDROID</a>
+                            </div>
+                            <div class="images py-[2rem] items-center  ">
+                                <div class="actualimg flex justify-center">
+                                    <img src="img/web.svg" alt="" class="w-[2.5rem] ">
+                                </div>
+                                <a href="" class="text-red-700 font-semibold ml-[.2rem]  ">EMBEDS</a>
+                            </div>
+    
+                           
+                            </div>
+                        </div>
+                    <div class="features__content lg:max-w-[37rem] lg:pl-[3rem]">
+                        <h2 class="font-bold text-[2rem] pt-[1rem] lg:pt-[3rem] lg:text-[3rem]">Music Metadata</h2>
+                        <p class="mt-[.5rem]">To allow users to search songs, artists, and playlists, set up the metadata features with our Web API.</p>
+                        <div class="row flex gap-[2rem]">
+                            <div class="images py-[2rem] items-center w-[4.5rem] ">
+                                <div class="actualimg flex justify-center">
+                                    <img src="img/web.svg" alt="" class="w-[2.5rem]">
+                                </div>
+                                <a href="" class="text-orange-400 font-semibold ml-[.4rem]">WEB API</a>
+                            </div>
+                            </div>
+                        </div>
+    
+                    <div class="features__content lg:max-w-[35rem] ">
+                        <h2 class="font-bold text-[2rem] pt-[1rem] lg:text-[3rem]">User Data</h2>
+                        <p class="mt-[.5rem]">To access user data like saved tracks and albums, set up the accessibility with our Web API.</p>
+                        <div class="row flex gap-[2rem]">
+                            <div class="images py-[2rem] items-center w-[4.5rem] ">
+                                <div class="actualimg flex justify-center">
+                                    <img src="img/web.svg" alt="" class="w-[2.5rem]">
+                                </div>
+                                <a href="" class="text-orange-400 font-semibold ml-[.4rem]">WEB API</a>
+                            </div>
+                            </div>
+                        </div>
+    
+                    <div class="features__content lg:max-w-[35rem] lg:pl-[3rem]">
+                        <h2 class="font-bold text-[2rem] pt-[1rem] lg:text-[3rem]">Spotify Content</h2>
+                        <p class="mt-[.5rem]">Set up Spotify Connect with our Web API to let users control Spotify on speakers, TVs, and other devices.</p>
+                        <div class="row flex gap-[2rem]">
+                            <div class="images py-[2rem] items-center w-[4.5rem] ">
+                                <div class="actualimg flex justify-center">
+                                    <img src="img/web.svg" alt="" class="w-[2.5rem]">
+                                </div>
+                                <a href="" class="text-orange-400 font-semibold ml-[.4rem]">WEB API</a>
+                            </div>
+                            <div class="images py-[2rem] items-center w-[13rem] ">
+                                <div class="actualimg flex justify-center ">
+                                    <img src="img/web.svg" alt="" class="w-[2.5rem]">
+                                </div>
+                                <a href="" class="text-[#38B261] font-semibold">COMMERCIAL HARDWARE</a>
+                            </div>
+                            </div>
+                        </div>
+                      
+                        <div class="features__content lg:max-w-[35rem] ">
+                            <h2 class="font-bold text-[2rem] pt-[1rem] lg:text-[3rem] ">Personalization</h2>
+                            <p class="mt-[.5rem]">Make it personal! To explore the music listening of users, set up personalized data with the Web API.</p>
+                            <div class="row flex gap-[2rem]">
+                                <div class="images py-[2rem] items-center w-[4.5rem] ">
+                                    <div class="actualimg flex justify-center">
+                                        <img src="img/web.svg" alt="" class="w-[2.5rem]">
+                                    </div>
+                                    <a href="" class="text-orange-400 font-semibold ml-[.4rem]">WEB API</a>
+                                </div>
+                                </div>
+                            </div>
+        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+    
+   
+
+    
+<script src="./scriptt.js"></script>
+</body>
+</html>

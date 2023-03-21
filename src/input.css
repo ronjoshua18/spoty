@@ -1,0 +1,155 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 1.2rem;
+ }
+
+.header__contain{
+    padding: .8rem 1.6rem;
+}
+
+ @layer components{
+    .toggle__menu span{
+        width: 1.5rem;
+        height: .2rem;
+        background-color: white;
+        display: block;
+        border-radius: 5rem;
+        transition:.5s ease;
+    }
+
+    .toggle__menudev span{
+      width: 1.5rem;
+      height: .2rem;
+      background-color: white;
+      display: block;
+      border-radius: 5rem;
+      transition:.5s ease;
+  }
+
+    .btn{
+        @apply inline-block text-sec_light bg-black py-[.8rem] px-[1.5rem] border-solid rounded-full w-fit text-center lg:w-fit ;
+    }
+    .btn_outline{
+        @apply inline-block text-sec_light bg-transparent py-[.8rem] px-[1.5rem] border-solid border rounded-full w-fit text-center;
+    }
+
+    .toggle__menu span:nth-child(2){
+        margin: .2rem 0;
+    }
+    .toggle__menu.open span:first-child{
+        @apply translate-x-0 translate-y-[10px] rotate-[225deg] ease-out duration-[.5s];
+    }
+    .toggle__menu.open span:nth-child(2){
+        @apply opacity-0;
+    }
+    .toggle__menu.open span:last-child{
+        @apply translate-x-0 translate-y-[-3px] rotate-[-225deg] ease-out duration-[.5s];
+    }
+
+
+    .header__nav ul{
+        @apply absolute bg-black w-0 right-0 top-0 overflow-hidden py-[2rem] h-[100vh] lg:static lg:w-full lg:h-auto lg:py-0;
+     }
+     .header__nav ul li:not(:first-child),.header__nav ul li:not(:last-child){
+        @apply mx-[2rem];
+     }
+     .header__nav ul.open{
+        @apply w-[85%] p-[2rem];
+     }
+     .arjay.show{
+        @apply w-full;
+     }
+     .links .links__item h4 i{
+        @apply ease-[.2s] lg:hidden;
+     }
+     .links .links__item  h4 i.open{
+        @apply rotate-[-180deg] ease-[.2s];
+     }
+
+     .links .links__item ul{
+       @apply max-h-0 overflow-hidden ease-[.5s] ml-[2rem] lg:max-h-[25rem] lg:ml-[0]; 
+     }
+
+     .links .links__item ul.open{
+        @apply max-h-[25rem] ease-[.5s] ;
+     }
+
+     .social ul li i{
+     @apply rounded-full p-[.6rem] bg-[#222326] hover:text-green lg:p-[1.1rem];
+     }
+
+
+    
+     .header__nav1 ul{
+        @apply bg-[#222326] w-full right-0 top-[-100rem] overflow-hidden h-[46.5vh] lg:bg-transparent lg:static lg:w-full lg:h-auto lg:py-0 ;
+     }
+
+     .header__nav1 ul li:not(:first-child),.header__nav1 ul li:not(:last-child){
+        @apply px-[2rem];
+     }
+     .header__nav1 ul.open{
+        @apply top-[3.9rem];
+     }
+
+      .toggle__menudev span:nth-child(2){
+      margin: .2rem 0;
+  }
+  .toggle__menudev.open span:first-child{
+      @apply translate-x-0 translate-y-[10px] rotate-[-45deg] ease-out duration-[.5s];
+  }
+  .toggle__menudev.open span:nth-child(2){
+      @apply opacity-0;
+  }
+  .toggle__menudev.open span:last-child{
+      @apply translate-x-0 translate-y-[-3px] rotate-[45deg] ease-out duration-[.5s];
+  }
+
+
+  /* PLATFORMS */
+  .circle{
+        @apply w-[7.5rem] text-center hover:opacity-[.9]
+    }
+    .circle a{
+        @apply text-[1rem] font-semibold 
+    }
+    .platform__content .backg{
+        @apply w-[7.5rem] h-[7.5rem] mb-[1.2rem] rounded-full flex justify-center items-center
+    }
+    .platform__content .backg img{
+        @apply w-[4rem]
+    }
+
+    .evrything.show{
+        @apply top-[35rem] duration-[.5s] ease-in-out;
+    }
+
+    .header__nav1 ul.tok li:not(:first-child),.header__nav1 ul.tok li:not(:last-child){
+        @apply px-0;
+    }
+
+
+    .opening{
+        @apply bg-slate-800 duration-[.5s] absolute left-0 max-h-[0rem] overflow-hidden top-[4.5rem]
+    }
+    
+
+    .header__nav1 ul li:hover .opening{
+        @apply  max-h-[50rem]
+    }
+ 
+
+     
+
+     
+ }
+
+
+
+
+
